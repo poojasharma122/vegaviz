@@ -499,7 +499,9 @@ span.theme{
     transition: all 0.3s ease-in-out;
     padding: 0.625rem 0px;
    }
-
+.sticky-header.fixed_header{
+	background-color: #fff;
+}
 .main-container {
     display: flex;
     align-items: center;
