@@ -1002,14 +1002,28 @@ input {
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
 }
-
+.service_icon {
+    height: 100%;
+    width: 100%;
+}
 .service-item p {
 	color: #707079;
 	-webkit-transition: all 0.3s;
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
 }
-
+.service_icons {
+    height: 5rem;
+}
+.service_icon2{
+	display: none;
+}
+.service-item:hover .service_icon2 {
+	display: block;
+}
+.service-item:hover .service_icon1 {
+	display: none;
+}
 /*------------------------
   Home Page Room Section 
 -------------------------*/
