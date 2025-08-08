@@ -1148,6 +1148,35 @@ span.theme{
 }
 /* Newsletter CSS End */
 
+
+/* FAQ CSS Start */
+.accordion-button ,.accordion-button:not(.collapsed) {
+    background: #dfa974;
+    color: #000;
+    font-size: 2rem;
+}
+
+.accordion-button:focus{
+    box-shadow: none;
+    outline: none;
+}
+
+
+.faq_img_outer {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.faq_img {
+    height: 100%;
+    width: 100%;
+}
+.faq_img_outer:hover .common_overlay {
+    transform: translate(-50%, -50%) scale(1);
+}
+/* FAQ CSS End */
+
 /*---------------------
   Blog and Event
 -----------------------*/
