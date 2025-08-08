@@ -1,11 +1,4 @@
-/*  ---------------------------------------------------
-    Template Name: Sona
-    Description: Sona Hotel Html Template
-    Author: Colorlib
-    Author URI: https://colorlib.com
-    Version: 1.0
-    Created: Colorlib
----------------------------------------------------------  */
+
 
 'use strict';
 
@@ -19,15 +12,31 @@
         $("#preloder").delay(200).fadeOut("slow");
     });
 
-    /*------------------
-        Background Set
-    --------------------*/
+// Toggle Menu Functionaliy Start
+$(document).ready(function () {
+    $(".menu-toggle-btn").click(function () {
+      $("body").addClass("menuToggle");
+    });
+    $(".menu-close-btn").click(function () {
+      $("body").removeClass("menuToggle");
+    });
+  });
+  // Toggle Menu Functionaliy End
+  // Header Scroll JS Start
+  $(document).ready(function () {
+    $(window).scroll(function () {
+      var header = $("header");
+      header.toggleClass("fixed_header", $(window).scrollTop() > 0);
+    });
+  });
+  // Header Scroll JS End
+
     $('.set-bg').each(function () {
         var bg = $(this).data('setbg');
         $(this).css('background-image', 'url(' + bg + ')');
     });
 
-    //Offcanvas Menu
+
     $(".canvas-open").on('click', function () {
         $(".offcanvas-menu-wrapper").addClass("show-offcanvas-menu-wrapper");
         $(".offcanvas-menu-overlay").addClass("active");
@@ -38,7 +47,7 @@
         $(".offcanvas-menu-overlay").removeClass("active");
     });
 
-    // Search model
+
     $('.search-switch').on('click', function () {
         $('.search-model').fadeIn(400);
     });
