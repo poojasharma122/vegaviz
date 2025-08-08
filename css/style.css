@@ -1222,7 +1222,9 @@ span.theme{
 }
 
 .footer-section .footer-text .ft-about .fa-social a {
-	display: inline-block;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	height: 40px;
 	width: 40px;
 	font-size: 16px;
@@ -1235,8 +1237,17 @@ span.theme{
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
 	margin-right: 7px;
+	padding: 0.5rem;
 }
-
+.footer-section .footer-text .ft-about .fa-social a svg{
+	height: 100%;
+	width: 100%;
+	fill: #fff;
+}
+.fa-social {
+    display: inline-flex;
+    gap: 0.3125rem;
+}
 .footer-section .footer-text .ft-about .fa-social a:hover {
 	background: #dfa974;
 	border-color: #dfa974;
