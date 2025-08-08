@@ -523,13 +523,16 @@ span.theme{
     display: inline-block;
 }
 
-.brand-container a, .footer-logo a {
+.brand-container a, .footer-section .logo a {
     background-image: url(../img/logo.png);
     background-position: left;
     background-size: contain;
     background-repeat: no-repeat;
     height: 2.75rem;
     width: 8.75rem;
+}
+.footer-section .logo a {
+    background-image: url(../img/footer_logo.png);
 }
 
 .menu-toggle-btn {
