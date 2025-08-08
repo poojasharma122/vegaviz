@@ -189,6 +189,11 @@ input {
     background-repeat: no-repeat;
     background-size: contain;
 }
+.bg_left_contain {
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 .bg_bottom_cover {
     background-position: bottom;
     background-repeat: no-repeat;
@@ -485,8 +490,8 @@ input {
 -----------------------*/
 .header-section .logo a {
     display: inline-block;
-    height: 2rem;
-    width: 20rem;
+    height: 3rem;
+    width: 100%;
 }
 
 .header-section.header-normal .menu-item {
@@ -508,7 +513,12 @@ input {
 	margin-right: 64px;
 	position: relative;
 }
-
+.logo {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
 .top-nav .tn-left li:after {
 	position: absolute;
 	right: -32px;
@@ -598,13 +608,6 @@ input {
 	z-index: 9;
 }
 
-.menu-item .logo {
-	padding: 25px 0;
-}
-
-.menu-item .logo a {
-	display: inline-block;
-}
 
 .menu-item .nav-menu {
 	text-align: right;
