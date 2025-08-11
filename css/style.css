@@ -283,7 +283,18 @@ input {
 /*---------------------
   Helper CSS
 -----------------------*/
-
+.owl-item {
+    position: relative;
+}
+.owl-item::before {
+    position: absolute;
+	content: '';
+	inset: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0 0 0/0.6);
+	background-blend-mode: multiply;
+}
 .section-title {
 	margin-bottom: 22px;
 }
@@ -620,6 +631,39 @@ span.theme{
 }
 
 /* Header CSS End */
+
+/* Banner CSS Start */
+.banner {
+    height: 40.875rem;
+    background-color: rgba(0 0 0/60%);
+    background-blend-mode: multiply;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner_wrap {
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.banner_content h1 {
+    font-size: 3.5rem;
+    color: #fff;
+    line-height: 1.4;
+    max-width: 50.625rem;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.banner.sub_banner {
+    height: 35rem;
+}
+/* Banner CSS   End */
 
 /* Button CSS Start */
 .butn {
@@ -1594,10 +1638,10 @@ span.theme{
 }
 
 .room-item {
-    margin-bottom: 30px;
     border-radius: 1.875rem;
     overflow: hidden;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	height: 100%;
 }
 
 .room-item img {
@@ -1605,7 +1649,6 @@ span.theme{
 }
 
 .room-item .ri-text {
-	border: 1px solid #ebebeb;
 	border-top: none;
 	padding: 24px 24px 30px 28px;
 }
@@ -1614,7 +1657,12 @@ span.theme{
 	color: #19191a;
 	text-align: center;
 }
-
+.hotel_cards_sec .room-item .ri-text h4 {
+    font-size: 1.8rem;
+}
+.hotel_price strong ,.hotel_highlights strong ,.hotel_features_heading strong {
+    color: #dfa974;
+}
 .room-item .ri-text h3 {
 	color: #dfa974;
 	font-weight: 700;
@@ -1637,7 +1685,9 @@ span.theme{
 	color: #707079;
 	line-height: 36px;
 }
-
+.room-item ul li {
+    margin-left: 1.2rem;
+}
 .room-item .ri-text table tbody tr td.r-o {
 	width: 125px;
 }
@@ -1672,7 +1722,19 @@ span.theme{
 	background: #dfa974;
 	color: #ffffff;
 }
-
+.hotel_highlights {
+    display: grid;
+    grid-template-columns: auto 1fr 1fr 1fr;
+	gap: 0.625rem;
+	align-items: center;
+}
+span.hightlights {
+    text-align: center;
+    background: #dfa974;
+    color: #000;
+    padding: 0.3125rem;
+	white-space: nowrap;
+}
 /*-----------------------
   Room Details Section
 -------------------------*/
