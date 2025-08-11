@@ -898,7 +898,30 @@ span.theme{
 .hero-slider .hs-item {
 	height: 100%;
 }
-
+.section_heading {
+    font-size: 2.5rem;
+    line-height: 1.4;
+}
+.itenary_content_img_outer {
+    height: 25rem;
+    width: 100%;
+}
+.itenary_content_img {
+    height: 100%;
+    width: 100%;
+}
+.itenary_plan_cards {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 1.25rem;
+    border-radius: 1.875rem;
+    height: 100%;
+}
+.itenary_plan_cards ul li {
+    margin-left: 1.25rem;
+}
+.itenary_plan_cards ul li  p{
+  font-size: 1.1rem;
+}
 /*---------------------
   About US
 -----------------------*/
@@ -908,8 +931,9 @@ span.theme{
 }
 
 .about-text p {
-	color: #595960;
-	font-weight: 500;
+    color: #595960;
+    font-weight: 500;
+    font-size: 1.2rem;
 }
 
 .about-text p.f-para {
