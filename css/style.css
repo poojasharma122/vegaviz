@@ -939,6 +939,9 @@ span.theme{
 .about-text p.f-para {
 	margin-bottom: 10px;
 }
+.about-text p.f-para  em{
+	color: #dfa974;
+}
 
 .about-text p.s-para {
 	margin-bottom: 35px;
