@@ -47,6 +47,8 @@ p {
 	font-weight: 400;
 	line-height: 26px;
 	margin: 0 0 15px 0;
+	margin: 0;
+	padding: 0;
 }
 
 
@@ -1035,7 +1037,16 @@ span.theme{
 .hp-room-items .hp-room-item .hr-text .primary-btn:after {
 	background: #ffffff;
 }
-
+.room_item_img_outer {
+    height: 20rem;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.room_item_img {
+    height: 100%;
+    width: 100%;
+}
 /*---------------------
   Testimonial Slider
 -----------------------*/
@@ -1208,9 +1219,6 @@ span.theme{
 	margin-bottom: 30px;
 }
 
-.footer-section .footer-text .ft-about .logo {
-	margin-bottom: 20px;
-}
 
 .footer-section .footer-text .ft-about .logo a {
 	display: inline-block;
@@ -1221,7 +1229,7 @@ span.theme{
 	margin-bottom: 20px;
 }
 
-.footer-section .footer-text .ft-about .fa-social a {
+.footer-section .ft-contact  .fa-social a {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -1239,16 +1247,23 @@ span.theme{
 	margin-right: 7px;
 	padding: 0.5rem;
 }
-.footer-section .footer-text .ft-about .fa-social a svg{
-	height: 100%;
-	width: 100%;
-	fill: #fff;
+.footer-section .ft-contact  .fa-social a svg {
+    height: 100%;
+    width: 100%;
+    fill: #aaaab3;
 }
+.ft-contact a {
+    color: #aaaab3;
+    transition: 0.3s all ease-in-out;
+}
+.ft-contact a:hover {
+    color: #dfa974;
+	}
 .fa-social {
     display: inline-flex;
     gap: 0.3125rem;
 }
-.footer-section .footer-text .ft-about .fa-social a:hover {
+.footer-section .ft-contact  .fa-social a:hover {
 	background: #dfa974;
 	border-color: #dfa974;
 }
@@ -1342,7 +1357,27 @@ span.theme{
 	color: #707079;
 	text-align: right;
 }
-
+.ft-newslatter ul li a {
+    color: #aaaab3;
+    margin-bottom: 0.625rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.ft-newslatter ul li a:hover {
+    color: #dfa974;
+}
+.ssl_logo {
+    height: 2.75rem;
+    width: 8.75rem;
+    margin-left: auto;
+}
+.ssl_logo_inner {
+    height: 100%;
+    width: 100%;
+}
+.footer-section .copyright-option p {
+    color: #aaaab3;
+}
 /* --------------------------------- Other Pages Styles ----------------------------------- */
 
 /*---------------------
@@ -1577,7 +1612,7 @@ span.theme{
 
 .room-item .ri-text h4 {
 	color: #19191a;
-	margin-bottom: 17px;
+	text-align: center;
 }
 
 .room-item .ri-text h3 {
