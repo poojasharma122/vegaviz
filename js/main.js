@@ -37,34 +37,32 @@ $(document).ready(function () {
     });
 
 
-    $(".canvas-open").on('click', function () {
-        $(".offcanvas-menu-wrapper").addClass("show-offcanvas-menu-wrapper");
-        $(".offcanvas-menu-overlay").addClass("active");
-    });
+    // $(".canvas-open").on('click', function () {
+    //     $(".offcanvas-menu-wrapper").addClass("show-offcanvas-menu-wrapper");
+    //     $(".offcanvas-menu-overlay").addClass("active");
+    // });
 
-    $(".canvas-close, .offcanvas-menu-overlay").on('click', function () {
-        $(".offcanvas-menu-wrapper").removeClass("show-offcanvas-menu-wrapper");
-        $(".offcanvas-menu-overlay").removeClass("active");
-    });
+    // $(".canvas-close, .offcanvas-menu-overlay").on('click', function () {
+    //     $(".offcanvas-menu-wrapper").removeClass("show-offcanvas-menu-wrapper");
+    //     $(".offcanvas-menu-overlay").removeClass("active");
+    // });
 
 
-    $('.search-switch').on('click', function () {
-        $('.search-model').fadeIn(400);
-    });
+    // $('.search-switch').on('click', function () {
+    //     $('.search-model').fadeIn(400);
+    // });
 
-    $('.search-close-switch').on('click', function () {
-        $('.search-model').fadeOut(400, function () {
-            $('#search-input').val('');
-        });
-    });
+    // $('.search-close-switch').on('click', function () {
+    //     $('.search-model').fadeOut(400, function () {
+    //         $('#search-input').val('');
+    //     });
+    // });
 
-    /*------------------
-		Navigation
-	--------------------*/
-    $(".mobile-menu").slicknav({
-        prependTo: '#mobile-menu-wrap',
-        allowParentLinks: true
-    });
+
+    // $(".mobile-menu").slicknav({
+    //     prependTo: '#mobile-menu-wrap',
+    //     allowParentLinks: true
+    // });
 
     /*------------------
         Hero Slider
