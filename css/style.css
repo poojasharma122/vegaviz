@@ -666,7 +666,7 @@ span.theme {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-image: url(../images/close.png);
+	background-image: url(../img/close.png);
 }
 
 /* Header CSS End */
@@ -3064,7 +3064,7 @@ span.hightlights {
 		height: 100%;
 		width: 100%;
 		padding: 3.125rem;
-		background-color: #060606;
+		background-color: #222736;
 		transform: translateY(100%);
 		transition: all 0.3s linear;
 		z-index: 100;
