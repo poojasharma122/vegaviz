@@ -1480,7 +1480,14 @@ fieldset {
 	box-shadow: none;
 	outline: none;
 }
-
+.about_last_btn {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.5rem; 
+  }
+  .icon-mail {
+	flex-shrink: 0;
+  }
 .faq_img_outer {
 	height: 100%;
 	width: 100%;
