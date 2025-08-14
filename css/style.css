@@ -307,13 +307,16 @@ input {
 .section-title {
 	margin-bottom: 22px;
 }
-.text_theme{
+
+.text_theme {
 	color: #dfa974;
 }
-.bold{
+
+.bold {
 	font-weight: 500;
 	font-size: 1.2rem;
 }
+
 .section-title span {
 	font-size: 14px;
 	color: #dfa974;
@@ -531,6 +534,10 @@ span.theme {
 	background-color: #fff;
 }
 
+.sticky-header.fixed_header {
+	background-color: #222736;
+}
+
 .main-container {
 	display: flex;
 	align-items: center;
@@ -560,6 +567,10 @@ span.theme {
 	background-repeat: no-repeat;
 	height: 2.75rem;
 	width: 8.75rem;
+}
+
+.sticky-header.fixed_header .brand-container a {
+	background-image: url(../img/footer_logo.svg);
 }
 
 .footer-section .logo a {
@@ -604,6 +615,14 @@ span.theme {
 	font-size: 1.1rem;
 }
 
+.navigation-menu ul li a:hover , .sticky-header.fixed_header .navigation-menu ul li a:hover{
+	color: #dfa974;
+}
+
+.sticky-header.fixed_header .navigation-menu ul li a {
+	color: #fff;
+}
+
 .navigation-menu ul li::marker {
 	color: transparent;
 }
@@ -623,7 +642,7 @@ span.theme {
 	transition: all 0.3s ease-out;
 }
 
-.navigation-menu ul li a.active {
+.navigation-menu ul li a.active ,.sticky-header.fixed_header .navigation-menu ul li a.active {
 	color: #dfa974;
 }
 
@@ -956,19 +975,23 @@ span.theme {
 .about-text {
 	padding: 0 35px;
 }
+
 .about_last_btn:hover {
-    text-decoration: underline;
-    text-underline-offset: 5px;
-    color: #dfa974;
+	text-decoration: underline;
+	text-underline-offset: 5px;
+	color: #dfa974;
 }
+
 .about-text p {
 	color: #595960;
 	font-weight: 500;
 	font-size: 1.2rem;
 }
+
 .about_card {
-    padding: 1.875rem;
+	padding: 1.875rem;
 }
+
 .about-text p.f-para {
 	margin-bottom: 10px;
 }
@@ -988,14 +1011,17 @@ span.theme {
 .about-pic img {
 	min-width: 100%;
 }
+
 .about_card_img_outer {
-    height: 5rem;
-    width: 5rem;
+	height: 5rem;
+	width: 5rem;
 }
+
 .about_card_img {
-    height: 100%;
-    width: 100%;
+	height: 100%;
+	width: 100%;
 }
+
 /*---------------------
   Service Section
 -----------------------*/
@@ -1290,167 +1316,179 @@ span.theme {
 
 /* Contact Page CSS Start */
 .contact-top_card_icon {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 5rem;
-    width: 5rem;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 5rem;
+	width: 5rem;
 }
+
 .bg_dark {
-    background-color: #222736;
+	background-color: #222736;
 }
+
 .contact_top_card {
-    padding: 2rem 1.25rem;
-    border-radius: 0.625rem;
-    height: 100%;
-    overflow: hidden;
-    border-top: 5px solid #dfa974;
-    border-bottom: 5px solid #dfa974;
+	padding: 2rem 1.25rem;
+	border-radius: 0.625rem;
+	height: 100%;
+	overflow: hidden;
+	border-top: 5px solid #dfa974;
+	border-bottom: 5px solid #dfa974;
 }
-.contact_top_card p{
-    color: #fff;
-    font-size: 1.1rem;
+
+.contact_top_card p {
+	color: #fff;
+	font-size: 1.1rem;
 }
-.contact_top_card p a{
-    color: #dfa974;
-    font-weight: 500;
+
+.contact_top_card p a {
+	color: #dfa974;
+	font-weight: 500;
 }
-.text_theme{
-    color:#dfa974;
+
+.text_theme {
+	color: #dfa974;
 }
-.text_white{
-    color: #fff;
+
+.text_white {
+	color: #fff;
 }
+
 .contact_top_card hr {
-    margin: 1rem 0;
-    border: 0;
-    border-top: 1px solid #dfa974;
-    opacity: 1;
+	margin: 1rem 0;
+	border: 0;
+	border-top: 1px solid #dfa974;
+	opacity: 1;
 }
 
 
 
 
 .inner_pages_banner.contact_banner {
-    height: 25rem;
+	height: 25rem;
 }
+
 #contact {
-    background-image: url("../images/how-we-compare-bg.png");
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100%;
-    max-width: 100%;
-    width: 100%;
+	background-image: url("../images/how-we-compare-bg.png");
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100%;
+	max-width: 100%;
+	width: 100%;
 }
 
 .contact_us_content .row {
-    margin-top: 1.25rem;
-    margin-bottom: 1.25rem;
+	margin-top: 1.25rem;
+	margin-bottom: 1.25rem;
 }
 
 .contact_us_content fieldset:last-child {
-    margin-bottom: 0;
+	margin-bottom: 0;
 }
 
 .contact_us_content #contact button {
-    margin-bottom: 0;
+	margin-bottom: 0;
 }
 
 fieldset {
-    border: medium none !important;
-    margin: 0 0 10px;
-    min-width: 100%;
-    padding: 0;
-    width: 100%;
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
 }
 
 #contact input,
 #contact textarea,
 #contact select {
-    width: 100%;
-    border: 1px solid #ccc;
-    background: #FFF;
-    margin: 0 0 5px;
-    padding: 0.625rem;
-    border-radius: 5px;
-    font-size: 1rem;
+	width: 100%;
+	border: 1px solid #ccc;
+	background: #FFF;
+	margin: 0 0 5px;
+	padding: 0.625rem;
+	border-radius: 5px;
+	font-size: 1rem;
 }
 
 #contact input:hover,
 #contact textarea:hover,
 #contact select:hover {
-    -webkit-transition: border-color 0.3s ease-in-out;
-    -moz-transition: border-color 0.3s ease-in-out;
-    transition: border-color 0.3s ease-in-out;
-    border: 1px solid #aaa;
+	-webkit-transition: border-color 0.3s ease-in-out;
+	-moz-transition: border-color 0.3s ease-in-out;
+	transition: border-color 0.3s ease-in-out;
+	border: 1px solid #aaa;
 }
 
 
 #contact textarea {
-    height: 6.25rem;
-    max-width: 100%;
-    resize: none;
+	height: 6.25rem;
+	max-width: 100%;
+	resize: none;
 }
 
 #contact select {
-    max-width: 100%;
-    color: #444546;
-    outline: none;
+	max-width: 100%;
+	color: #444546;
+	outline: none;
 }
 
 
 
 
 .copyright {
-    text-align: center;
+	text-align: center;
 }
 
 #contact input:focus,
 #contact textarea:focus {
-    outline: 0;
+	outline: 0;
 
 }
 
 ::-webkit-input-placeholder,
 ::-webkit-select-placeholder {
-    color: #818181;
+	color: #818181;
 }
 
 :-moz-placeholder {
-    color: #818181;
+	color: #818181;
 }
 
 :-ms-input-placeholder {
-    color: #818181;
+	color: #818181;
 }
 
 .contact-us-group {
-    margin-bottom: 1.875rem;
-    padding: 1.25rem;
-    border-radius: 8px;
-    overflow: hidden;
+	margin-bottom: 1.875rem;
+	padding: 1.25rem;
+	border-radius: 8px;
+	overflow: hidden;
 }
 
 
 .contact_us_sec {
-    margin-top: 2.5rem;
+	margin-top: 2.5rem;
 }
+
 .form-image {
-    overflow: hidden;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
+	overflow: hidden;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
 }
+
 .form-container {
-    padding: 20px;
+	padding: 20px;
 }
+
 .form-wrapper {
-    height: 100%;
-    width: 100%;
+	height: 100%;
+	width: 100%;
 }
+
 /* Contact Page CSS End*/
 
 /* FAQ CSS Start */
@@ -1519,9 +1557,9 @@ fieldset {
 }
 
 .footer-section .footer-text .ft-about p {
-    color: #dfa974;
-    margin-bottom: 20px;
-    font-size: 1.2rem;
+	color: #dfa974;
+	margin-bottom: 20px;
+	font-size: 1.2rem;
 }
 
 .footer-section .ft-contact .fa-social a {
@@ -1686,7 +1724,7 @@ fieldset {
 	transition: all 0.3s ease-out;
 }
 
-.ft-newslatter ul li  a:hover::after {
+.ft-newslatter ul li a:hover::after {
 	transform: scaleX(0.9);
 }
 
@@ -2046,167 +2084,171 @@ span.hightlights {
 /* Blog Description CSS Start */
 
 .blog_description_section {
-    margin-top: 5rem;
+	margin-top: 5rem;
 }
+
 .blog_description_wrap {
-    max-width: 75rem;
+	max-width: 75rem;
 
 }
 
 .block_image_wrap {
-    height: 31.25rem;
-    width: 100%;
-    display: flex;
-    align-items: flex-end;
-    border-radius: 1.875rem;
-    overflow: hidden;
+	height: 31.25rem;
+	width: 100%;
+	display: flex;
+	align-items: flex-end;
+	border-radius: 1.875rem;
+	overflow: hidden;
 }
 
 .block_image_outer {
-    height: 100%;
+	height: 100%;
 
 }
 
 .block_image {
-    height: 100%;
-    width: 100%;
+	height: 100%;
+	width: 100%;
 }
 
 .blog_image_txt {
-    padding: 0.9375rem 1.875rem;
-    width: 100%;
-    background-color: rgb(34 39 54);
-    text-align: center;
-    background-blend-mode: multiply;
-    overflow: hidden;
+	padding: 0.9375rem 1.875rem;
+	width: 100%;
+	background-color: rgb(34 39 54);
+	text-align: center;
+	background-blend-mode: multiply;
+	overflow: hidden;
 }
 
 
 .blog_image_txt h1 {
-    position: relative;
-    display: inline-block;
-    color: white;
-    text-decoration: none;
-    font-size: 1.8rem;
-}
-.block_image_wrap:hover  .blog_image_txt h1{
-    color: #dfa974;
+	position: relative;
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	font-size: 1.8rem;
 }
 
-.blog_image_txt h1::after  {
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 2px;
-    display: block;
-    margin-top: 5px;
-    background: #dfa974;
-    transition: width 0.3s ease-in-out;
-    left: 0;
-    bottom: -8px;
+.block_image_wrap:hover .blog_image_txt h1 {
+	color: #dfa974;
+}
+
+.blog_image_txt h1::after {
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 2px;
+	display: block;
+	margin-top: 5px;
+	background: #dfa974;
+	transition: width 0.3s ease-in-out;
+	left: 0;
+	bottom: -8px;
 }
 
 .block_image_wrap:hover .blog_image_txt h1::after {
-    width: 100%;
+	width: 100%;
 }
 
 .blog_desc_grps p {
-    font-size: 1.1rem;
-    font-weight: 500;
-    
+	font-size: 1.1rem;
+	font-weight: 500;
+
 }
+
 .blog_desc_grps h3 {
-    font-size: 1.6rem;
-    font-weight: 500;
+	font-size: 1.6rem;
+	font-weight: 500;
 }
+
 .blog_desc_grps ul li {
-    margin-left: 2.25rem;
-    list-style-type: disc;
+	margin-left: 2.25rem;
+	list-style-type: disc;
 }
 
 .blog_desc_grps ul li::marker {
-    color: #dfa974;
+	color: #dfa974;
 }
 
 /* Blog Description CSS End */
 
 /* Footer Pages CSS End*/
 .footer-pages-wrap {
-    max-width: 81.25rem;
-    margin: 0 auto;
-    border-radius: 1.875rem;
-    position: relative;
-    z-index: 99;
-    background-color: #222736;
-    padding: 1.875rem;
+	max-width: 81.25rem;
+	margin: 0 auto;
+	border-radius: 1.875rem;
+	position: relative;
+	z-index: 99;
+	background-color: #222736;
+	padding: 1.875rem;
 }
 
 .footer-pages-content-grp {
-    margin-bottom: 1.2rem;
-    border-radius: 0.625rem;
+	margin-bottom: 1.2rem;
+	border-radius: 0.625rem;
 }
 
 .footer-pages-content-grp:last-child {
-    margin-bottom: 0px;
+	margin-bottom: 0px;
 }
 
 .footer-pages-content-grp h3 {
-    font-size: 1.7rem;
-    margin-bottom: 0.9375rem;
-    color: #dfa974;
-    line-height: 1.4;
+	font-size: 1.7rem;
+	margin-bottom: 0.9375rem;
+	color: #dfa974;
+	line-height: 1.4;
 }
 
 .footer-pages-content-grp strong {
-    font-size: 1.125rem;
+	font-size: 1.125rem;
 }
 
 .footer-pages-content-grp p {
-    font-size: 1.0625rem;
-    margin-bottom: 0.5rem;
-    color: #fff;
+	font-size: 1.0625rem;
+	margin-bottom: 0.5rem;
+	color: #fff;
 }
 
 .footer-pages-content-grp ul {
-    list-style: none;
-    padding-left: 1.25rem;
+	list-style: none;
+	padding-left: 1.25rem;
 }
 
 .footer-pages-content-grp ul li {
-    list-style-type: disc;
-    font-size: 1.0625rem;
-    margin-bottom: 0.5rem;
-    color: #fff;
-    font-weight: 500;
+	list-style-type: disc;
+	font-size: 1.0625rem;
+	margin-bottom: 0.5rem;
+	color: #fff;
+	font-weight: 500;
 }
 
 .footer-pages-content-grp ul li::marker {
-    color: #fff;
+	color: #fff;
 }
 
 .footer-pages-content-grp p a {
-    display: inline-block;
-    transition: 0.4s all ease-in-out;
-    text-underline-offset: 4px;
-    font-weight: 600;
+	display: inline-block;
+	transition: 0.4s all ease-in-out;
+	text-underline-offset: 4px;
+	font-weight: 600;
 }
 
 .footer-pages-content-grp p a:hover {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 
 .footer-pages-content-grp.ft_diff {
-    background: #191919;
-    width: max-content;
-    padding: 1.25rem;
+	background: #191919;
+	width: max-content;
+	padding: 1.25rem;
 }
 
 .footer-pages-content-grp.ft_diff p {
-    color: #fff;
+	color: #fff;
 }
 
 .footer-pages-content-grp a {
-    color: white;
+	color: white;
 }
 
 /* Footer Pages CSS End*/
@@ -3074,39 +3116,41 @@ span.hightlights {
 	width: 100%;
 }
 
-	/* About Page CSS Start */
-	.about_cards {
-		border-radius: 1.875rem;
-		padding: 1.875rem;
-		height: 100%;
-	}
+/* About Page CSS Start */
+.about_cards {
+	border-radius: 1.875rem;
+	padding: 1.875rem;
+	height: 100%;
+}
 
-	.about_cards_img_outer {
-		height: 6rem;
-		width: 6rem;
-		overflow: hidden;
-		position: relative;
-		margin-bottom: 1.25rem;
-	}
+.about_cards_img_outer {
+	height: 6rem;
+	width: 6rem;
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 1.25rem;
+}
 
-	.about_cards_img {
-		height: 100%;
-		width: 100%;
-	}
+.about_cards_img {
+	height: 100%;
+	width: 100%;
+}
 
-	.about_last_heading {
-		padding: 1.25rem;
-		background: #060606;
-		border-radius: 7.875rem;
-	}
+.about_last_heading {
+	padding: 1.25rem;
+	background: #060606;
+	border-radius: 7.875rem;
+}
 
-	.about_cards_content {
-		padding: 1.25rem 0;
-	}
-	.about_cards.room-item {
-		padding: 1.875rem;
-	}
-	/* About Page CSS End */
+.about_cards_content {
+	padding: 1.25rem 0;
+}
+
+.about_cards.room-item {
+	padding: 1.875rem;
+}
+
+/* About Page CSS End */
 
 /*-------------------------------- Respinsive Media Styles --------------------------------*/
 
