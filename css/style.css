@@ -659,7 +659,7 @@ span.theme{
     font-weight: 500;
 }
 .banner.sub_banner {
-    height: 35rem;
+    height: 40rem;
 }
 /* Banner CSS   End */
 
@@ -724,9 +724,10 @@ span.theme{
 -----------------------*/
 
 .hero-section {
-	position: relative;
-	padding-top: 60px;
-	padding-bottom: 100px;
+    position: relative;
+    height: 700px;
+    display: flex;
+    align-items: center;
 }
 
 .hero-section .container {
@@ -734,9 +735,6 @@ span.theme{
 	z-index: 5;
 }
 
-.hero-text {
-	padding-top: 145px;
-}
 
 .hero-text h1 {
 	font-size: 60px;
