@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 html,
 body {
 	height: 100%;
@@ -37,7 +37,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: "Playfair Display", serif;
+	font-family: "Inter", sans-serif;
 	margin: 0;
 	line-height: 1;
 	letter-spacing: 0.0375rem;
@@ -3316,6 +3316,12 @@ span.hightlights {
 	p {
 		font-weight: 600;
 	}
+	.ft-newslatter ul li a {
+		font-weight: 600;
+	}
+	b, strong {
+		font-weight: 800;
+	}
 }
 
 @media only screen and (max-width: 480px) {
@@ -3347,7 +3353,9 @@ span.hightlights {
 	.footer-section .copyright-option ul li {
 		margin-bottom: 0.3125rem;
 	}
-
+	.vegas_cards_sec .room-item .ri-text h4 {
+		font-size: 1.5rem;
+	}
 	.video-section {
 		padding-top: 5rem;
 	}
