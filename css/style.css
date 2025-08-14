@@ -334,7 +334,7 @@ input {
 .set-bg {
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: top center;
+	background-position: center;
 }
 
 .spad {
@@ -711,22 +711,22 @@ span.theme {
 
 /* Button CSS Start */
 .butn {
-	position: relative;
-	z-index: 2;
-	vertical-align: middle;
-	display: inline-flex;
-	border: none;
-	text-align: center;
-	background-color: #dfa974;
-	color: #000;
-	font-size: 1.1rem;
-	font-weight: 500;
-	text-transform: uppercase;
-	line-height: 1;
-	padding: 0.9375rem 1.875rem;
-	overflow: hidden;
-	justify-content: center;
-	align-items: center;
+    position: relative;
+    z-index: 2;
+    vertical-align: middle;
+    display: inline-flex;
+    border: none;
+    text-align: center;
+    background-color: #dfa974;
+    color: #000;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 1;
+    padding: 0.9375rem 1.875rem;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
 }
 
 .butn::after,
