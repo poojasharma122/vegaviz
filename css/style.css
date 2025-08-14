@@ -3149,8 +3149,9 @@ span.hightlights {
 		height: 20rem;
 		margin-bottom: 1.875rem;
 	}
-	.hotel_cards_sec  .room-item p {
-		font-size: 1.2rem;
+	.hotel_cards_sec  .room-item p ,.vegas_cards_sec  .room-item p 
+	 {
+		font-size: 1.1rem;
 	}
 	.about-text {
 		padding: 2rem 0;
@@ -3300,7 +3301,7 @@ span.hightlights {
 	.banner_content {
 		margin-top: 5rem;
 	}
-	.hotel_cards_sec  .room-item p {
+	.hotel_cards_sec  .room-item p ,.vegas_cards_sec  .room-item p {
 		font-size: 1.1rem;
 	}
 	.section_heading {
