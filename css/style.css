@@ -1470,11 +1470,10 @@ fieldset {
 	width: 100%;
 }
 
-.accordion-button,
-.accordion-button:not(.collapsed) {
-	background: #dfa974;
-	color: #000;
-	font-size: 2rem;
+.accordion-button, .accordion-button:not(.collapsed) {
+    background: #dfa974;
+    color: #000;
+    font-size: 1.4rem;
 }
 
 .accordion-button:focus {
