@@ -1551,6 +1551,7 @@ fieldset {
 .ft-contact a {
 	color: #aaaab3;
 	transition: 0.3s all ease-in-out;
+	font-size: 1.1rem;
 }
 
 .ft-contact a:hover {
@@ -1572,7 +1573,7 @@ fieldset {
 }
 
 .footer-section .footer-text .ft-contact h6 {
-	font-size: 14px;
+	font-size: 1.4rem;
 	color: #dfa974;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -1589,7 +1590,7 @@ fieldset {
 }
 
 .footer-section .footer-text .ft-newslatter h6 {
-	font-size: 14px;
+	font-size: 1.4rem;
 	color: #dfa974;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -1660,12 +1661,32 @@ fieldset {
 .ft-newslatter ul li a {
 	color: #aaaab3;
 	margin-bottom: 0.625rem;
-	font-size: 1rem;
+	font-size: 1.1rem;
 	font-weight: 400;
+	position: relative;
 }
 
 .ft-newslatter ul li a:hover {
 	color: #dfa974;
+}
+
+.ft-newslatter ul li a::after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	transform: scaleX(0);
+	border-radius: 5px;
+	height: 1.5px;
+	bottom: -4px;
+	left: 0;
+	right: 0;
+	background-color: #dfa974;
+	transform-origin: center;
+	transition: all 0.3s ease-out;
+}
+
+.ft-newslatter ul li  a:hover::after {
+	transform: scaleX(0.9);
 }
 
 .ssl_logo {
