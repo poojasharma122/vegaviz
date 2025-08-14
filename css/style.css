@@ -2089,10 +2089,14 @@ span.hightlights {
 }
 
 .blog_desc_grps p {
-       font-size: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #222736;
+}
+.blog_desc_grps h3 {
+    font-size: 1.6rem;
     font-weight: 500;
 }
-
 .blog_desc_grps ul li {
     margin-left: 2.25rem;
     list-style-type: disc;
