@@ -1661,6 +1661,9 @@ span.theme{
 }
 .vegas_cards_sec .room-item .ri-text h4 {
     text-align: left;
+    font-size: 1.8rem;
+    font-weight: 500;
+	color: #dfa974;
 }
 .room-item {
     border-radius: 1.875rem;
