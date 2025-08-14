@@ -3149,6 +3149,15 @@ span.hightlights {
 		height: 20rem;
 		margin-bottom: 1.875rem;
 	}
+	.hotel_cards_sec  .room-item p {
+		font-size: 1.2rem;
+	}
+	.about-text {
+		padding: 2rem 0;
+	}
+	.section-title h2 {
+		font-size: 2.3rem;
+	}
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -3245,6 +3254,9 @@ span.hightlights {
 .ssl_logo {
     margin: 15px auto 0 auto;
 }
+.section-title h2 {
+	font-size: 2.5rem;
+}
 }
 
 @media only screen and (max-width: 575px) {
@@ -3252,9 +3264,6 @@ span.hightlights {
 		display: none;
 	}
 
-	.about-text {
-		padding: 0;
-	}
 
 	.after_banner_img_outer {
 		height: 20rem;
@@ -3262,6 +3271,7 @@ span.hightlights {
 
 	.section-title h2 {
 		font-size: 2rem;
+		line-height: 1.3;
 	}
 
 	.spad {
@@ -3281,6 +3291,25 @@ span.hightlights {
 	.footer-section .footer-text {
 		padding: 3rem 0 1.875rem;
 	}
+	.banner.sub_banner {
+		height: 30rem;
+	}
+	.banner_content h1 {
+		font-size: 3rem;
+	}
+	.banner_content {
+		margin-top: 5rem;
+	}
+	.hotel_cards_sec  .room-item p {
+		font-size: 1.1rem;
+	}
+	.section_heading {
+		font-size: 2.3rem;
+	}
+	.py-5 {
+		padding-top: 2rem!important;
+		padding-bottom: 2rem!important;
+	}
 }
 
 @media only screen and (max-width: 480px) {
@@ -3298,6 +3327,13 @@ span.hightlights {
 	}
 	.accordion-body p {
 		font-size: 1.1rem;
+	}
+	.hotel_highlights {
+		grid-template-columns: 1fr;
+		margin-bottom: 1.25rem;
+	}
+	.section_heading {
+		font-size: 2rem;
 	}
 }
 
