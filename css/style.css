@@ -2021,7 +2021,88 @@ span.hightlights {
 /*-----------------------
   Room Details Section
 -------------------------*/
+/* Blog Description CSS Start */
 
+.blog_description_section {
+    margin-top: 5rem;
+}
+.blog_description_wrap {
+    max-width: 75rem;
+
+}
+
+.block_image_wrap {
+    height: 31.25rem;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 1.875rem;
+    overflow: hidden;
+}
+
+.block_image_outer {
+    height: 100%;
+
+}
+
+.block_image {
+    height: 100%;
+    width: 100%;
+}
+
+.blog_image_txt {
+    padding: 0.9375rem 1.875rem;
+    width: 100%;
+    background-color: rgb(34 39 54);
+    text-align: center;
+    background-blend-mode: multiply;
+    overflow: hidden;
+}
+
+
+.blog_image_txt h1 {
+    position: relative;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 1.8rem;
+}
+.block_image_wrap:hover  .blog_image_txt h1{
+    color: #dfa974;
+}
+
+.blog_image_txt h1::after  {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    display: block;
+    margin-top: 5px;
+    background: #dfa974;
+    transition: width 0.3s ease-in-out;
+    left: 0;
+    bottom: -8px;
+}
+
+.block_image_wrap:hover .blog_image_txt h1::after {
+    width: 100%;
+}
+
+.blog_desc_grps p {
+       font-size: 1rem;
+    font-weight: 500;
+}
+
+.blog_desc_grps ul li {
+    margin-left: 2.25rem;
+    list-style-type: disc;
+}
+
+.blog_desc_grps ul li::marker {
+    color: #dfa974;
+}
+
+/* Blog Description CSS End */
 .room-details-section {
 	padding-top: 0;
 	padding-bottom: 80px;
