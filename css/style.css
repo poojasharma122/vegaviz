@@ -694,13 +694,13 @@ span.theme {
 }
 
 .banner_content h1 {
-	font-size: 3.5rem;
+	font-size: 3rem;
 	color: #fff;
 	line-height: 1.4;
 	max-width: 50.625rem;
 	letter-spacing: 0.03125rem;
 	text-transform: capitalize;
-	font-weight: 500;
+	font-weight: 400;
 }
 
 .banner.sub_banner {
