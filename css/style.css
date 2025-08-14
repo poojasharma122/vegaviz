@@ -947,7 +947,7 @@ span.theme {
 }
 
 .itenary_content_img_outer {
-	height: 25rem;
+	height: 30rem;
 	width: 100%;
 }
 
@@ -3178,6 +3178,14 @@ span.hightlights {
 	}
 	.banner_content h1 {
 		font-size: 2.7rem;
+	}
+	.hotel_cards_sec .room-item .ri-text h4 {
+		text-align: left;
+		line-height: 1.4;
+	}
+	.hotel_highlights {
+		grid-template-columns: auto;
+		margin-bottom: 1.25rem;
 	}
 }
 
