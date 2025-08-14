@@ -782,10 +782,11 @@ span.theme {
 }
 
 .hero-text h1 {
-	font-size: 3.75rem;
-	line-height: 1.5;
-	color: #ffffff;
-	margin-bottom: 1rem;
+    font-size: 3.75rem;
+    line-height: 1.5;
+    color: #ffffff;
+    margin-bottom: 1rem;
+    font-weight: 400;
 }
 
 .hero-text p {
@@ -3193,7 +3194,9 @@ span.hightlights {
 	html {
 		font-size: 14px;
 	}
-
+	.accordion-button, .accordion-button:not(.collapsed) {
+		font-size: 1.7rem;
+	}
 	.contact-us-group {
 		padding: 0;
 	}
