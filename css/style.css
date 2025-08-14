@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 html,
 body {
 	height: 100%;
-	font-family: "Cabin", sans-serif;
+	font-family: "Raleway", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
 }
@@ -42,9 +44,9 @@ h6 {
 }
 
 p {
-	font-family: "Cabin", sans-serif;
+	font-family: "Raleway", sans-serif;
 	color: #6b6b6b;
-	font-weight: 400;
+	font-weight: 500;
 	line-height: 1.625rem;
 	margin: 0 0 0.9375rem 0;
 	margin: 0;
@@ -1149,7 +1151,7 @@ span.theme {
 }
 
 .hp-room-items .hp-room-item .hr-text h2 span {
-	font-family: "Cabin", sans-serif;
+	font-family: "Raleway", sans-serif;
 	font-size: 1rem;
 	font-weight: 400;
 	color: #ffffff;
@@ -1575,7 +1577,7 @@ fieldset {
 	text-transform: uppercase;
 	font-weight: 700;
 	letter-spacing: 0.1875rem;
-	font-family: "Cabin", sans-serif;
+	font-family: "Raleway", sans-serif;
 	margin-bottom: 1.25rem;
 }
 
@@ -1592,7 +1594,7 @@ fieldset {
 	text-transform: uppercase;
 	font-weight: 700;
 	letter-spacing: 0.1875rem;
-	font-family: "Cabin", sans-serif;
+	font-family: "Raleway", sans-serif;
 	margin-bottom: 1.25rem;
 }
 
@@ -1948,7 +1950,7 @@ h5.hotel_price strong {
 }
 
 .room-item .ri-text h3 span {
-	font-family: "Cabin", sans-serif;
+	font-family: "Raleway", sans-serif;
 	font-size: 0.875rem;
 	font-weight: 400;
 	color: #19191a;
@@ -2239,7 +2241,7 @@ span.hightlights {
 }
 
 .room-details-item .rd-text h2 span {
-	font-family: "Cabin", sans-serif;
+	font-family: "Raleway", sans-serif;
 	font-size: 1rem;
 	font-weight: 400;
 	color: #19191a;
@@ -3310,6 +3312,9 @@ span.hightlights {
 	.py-5 {
 		padding-top: 2rem!important;
 		padding-bottom: 2rem!important;
+	}
+	p {
+		font-weight: 600;
 	}
 }
 
