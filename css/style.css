@@ -1563,7 +1563,10 @@ fieldset {
 	display: inline-flex;
 	gap: 0.3125rem;
 }
-
+.disclaimer_wrap {
+    border-top: 1px solid #dfa974;
+    border-bottom: 1px solid #dfa974;
+}
 .footer-section .ft-contact .fa-social a:hover {
 	border-color: #dfa974;
 	transform:translateY(-3px)
