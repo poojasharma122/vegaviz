@@ -3219,7 +3219,7 @@ span.hightlights {
 }
 
 .about-text .section-title h2 {
-	font-size: 1.875rem;
+	font-size: 1.5rem;
 	line-height: 2.5rem;
 }
 
@@ -3322,13 +3322,25 @@ span.hightlights {
 	b, strong {
 		font-weight: 800;
 	}
+	.footer-section .footer-text .ft-newslatter h6 {
+		font-size: 1.3rem;
+	}
+	.footer-section .footer-text .ft-about p {
+		font-size: 1.1rem;
+	}
+	.about_cards_img_outer {
+		height: 5rem;
+		width: 5rem;
+	}
 }
 
 @media only screen and (max-width: 480px) {
 	.hero-text h1 {
 		font-size: 2.75rem;
 	}
-
+	.section-title h2 {
+		font-size: 1.8rem;
+	}
 	.butn {
 		font-size: 1rem;
 		padding: 0.9375rem 1.25rem;
