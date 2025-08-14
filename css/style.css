@@ -502,7 +502,7 @@ span.theme{
 
 /* Header CSS Start */
 .sticky-header {
-    position: sticky;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -511,10 +511,8 @@ span.theme{
     z-index: 9999;
     transition: all 0.3s ease-in-out;
     padding: 0.625rem 0px;
+		background-color: #fff;
    }
-.sticky-header.fixed_header{
-	background-color: #fff;
-}
 .main-container {
     display: flex;
     align-items: center;
