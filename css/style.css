@@ -1070,13 +1070,14 @@ span.theme {
 }
 
 .service-item h4 {
-	color: #19191a;
-	font-size: 1.375rem;
-	margin-bottom: 0.9375rem;
-	margin-top: 0.625rem;
-	-webkit-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
+    color: #19191a;
+    font-size: 1.375rem;
+    margin-bottom: 0.9375rem;
+    margin-top: 0.625rem;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    line-height: 1.3;
 }
 
 .service_icon {
