@@ -3261,6 +3261,9 @@ span.hightlights {
 	.accordion-body p {
 		font-size: 1.2rem;
 	}
+	.room_item_img_outer {
+		height: 18rem;
+	}
 }
 
 @media only screen and (max-width: 480px) {
