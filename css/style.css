@@ -1480,14 +1480,11 @@ fieldset {
 	box-shadow: none;
 	outline: none;
 }
-.about_last_btn {
-	display: inline-flex;
-	align-items: center;
-	gap: 0.5rem; 
-  }
-  .icon-mail {
-	flex-shrink: 0;
-  }
+.last_mail svg {
+    height: 1.25rem;
+    width: 1.25rem;
+    fill:#dfa974;
+}
 .faq_img_outer {
 	height: 100%;
 	width: 100%;
@@ -2078,11 +2075,12 @@ span.hightlights {
 }
 
 .blog_image_txt h1 {
-	position: relative;
-	display: inline-block;
-	color: white;
-	text-decoration: none;
-	font-size: 1.8rem;
+    position: relative;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 1.8rem;
+    line-height: 1.4;
 }
 
 .block_image_wrap:hover .blog_image_txt h1 {
@@ -3402,6 +3400,9 @@ span.hightlights {
 		height: 5rem;
 		width: 5rem;
 	}
+	.blog_image_txt h1 {
+		font-size: 1.6rem;
+	}
 }
 
 @media only screen and (max-width: 480px) {
@@ -3440,13 +3441,18 @@ span.hightlights {
 	.footer-pages-wrap {
 		padding: 1.25rem;
 	}
+	.blog_image_txt h1 {
+		font-size: 1.4rem;
+	}
 }
 
 @media only screen and (max-width: 480px) {
 	.footer-section .copyright-option ul li {
 		margin-bottom: 0.3125rem;
 	}
-
+	.blog_image_txt h1 {
+		font-size: 1.2rem;
+	}
 	.vegas_cards_sec .room-item .ri-text h4 {
 		font-size: 1.5rem;
 	}
