@@ -1519,8 +1519,9 @@ fieldset {
 }
 
 .footer-section .footer-text .ft-about p {
-	color: #aaaab3;
-	margin-bottom: 20px;
+    color: #dfa974;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
 }
 
 .footer-section .ft-contact .fa-social a {
