@@ -94,13 +94,16 @@ input {
 
 .container {
 	width: 100%;
-	max-width: 85.625rem !important; /* 1370px ÷ 16 */
+	max-width: 85.625rem !important;
+	/* 1370px ÷ 16 */
 	margin: 0 auto;
-	padding: 0 0.9375rem; /* 15px ÷ 16 */
+	padding: 0 0.9375rem;
+	/* 15px ÷ 16 */
 }
 
 .py-7 {
-	padding: 4.375rem 0; /* 70px ÷ 16 */
+	padding: 4.375rem 0;
+	/* 70px ÷ 16 */
 }
 
 .pt-7 {
@@ -112,7 +115,8 @@ input {
 }
 
 .py-8 {
-	padding: 5rem 0; /* 80px ÷ 16 */
+	padding: 5rem 0;
+	/* 80px ÷ 16 */
 }
 
 .pt-8 {
@@ -124,7 +128,8 @@ input {
 }
 
 .py-10 {
-	padding: 6.25rem 0; /* 100px ÷ 16 */
+	padding: 6.25rem 0;
+	/* 100px ÷ 16 */
 }
 
 .pb-10 {
@@ -275,6 +280,7 @@ input {
 	height: 100%;
 	width: 100%;
 }
+
 /* OVeralay CSS End*/
 
 /*---------------------
@@ -290,7 +296,7 @@ input {
 	inset: 0;
 	height: 100%;
 	width: 100%;
-	background-color: rgba(0 0 0/0.6);
+	background-color: rgba(0 0 0/0.7);
 	background-blend-mode: multiply;
 }
 
@@ -407,12 +413,14 @@ span.theme {
 		border: 0.25rem solid #f44336;
 		border-left-color: transparent;
 	}
+
 	50% {
 		-webkit-transform: rotate(11.25rem);
 		transform: rotate(11.25rem);
 		border: 0.25rem solid #673ab7;
 		border-left-color: transparent;
 	}
+
 	100% {
 		-webkit-transform: rotate(22.5rem);
 		transform: rotate(22.5rem);
@@ -427,11 +435,13 @@ span.theme {
 		border: 0.25rem solid #f44336;
 		border-left-color: transparent;
 	}
+
 	50% {
 		-webkit-transform: rotate(11.25rem);
 		border: 0.25rem solid #673ab7;
 		border-left-color: transparent;
 	}
+
 	100% {
 		-webkit-transform: rotate(22.5rem);
 		border: 0.25rem solid #f44336;
@@ -654,6 +664,7 @@ span.theme {
 	background-size: cover;
 	background-image: url(../images/close.png);
 }
+
 /* Header CSS End */
 
 /* Banner CSS Start */
@@ -688,6 +699,7 @@ span.theme {
 .banner.sub_banner {
 	height: 40rem;
 }
+
 /* Banner CSS End */
 
 /* Button CSS Start */
@@ -744,6 +756,7 @@ span.theme {
 	height: 55.625rem;
 	width: 55.625rem;
 }
+
 /* Button CSS End */
 
 /*---------------------
@@ -3085,6 +3098,10 @@ span.hightlights {
 	.navigation-menu ul li a {
 		color: #fff;
 	}
+
+	html {
+		font-size: 15px;
+	}
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -3098,9 +3115,6 @@ span.hightlights {
 }
 
 @media only screen and (max-width: 991px) {
-	.about-text {
-		margin-bottom: 1.875rem;
-	}
 
 	.footer-section .copyright-option ul {
 		text-align: center;
@@ -3125,7 +3139,7 @@ span.hightlights {
 	}
 
 	.hero-text {
-		margin-bottom: 2.5rem;
+		margin-top: 2.5rem;
 	}
 }
 
@@ -3148,52 +3162,126 @@ span.hightlights {
 }
 
 @media only screen and (max-width: 767px) {
-	.testimonial-slider.owl-carousel .owl-nav {
+	html {
+		font-size: 14px;
+	}
+
+
+.testimonial-slider.owl-carousel .owl-nav {
+	display: none;
+}
+
+.room-details-item .rd-text .rd-title {
+	margin-bottom: 1.5625rem;
+}
+
+.room-details-item .rd-text .rd-title h3 {
+	float: none;
+	margin-bottom: 1.875rem;
+}
+
+.room-details-item .rd-text .rd-title .rdt-right {
+	float: none;
+	text-align: left;
+}
+
+.footer-section .copyright-option ul li {
+	margin-right: 1.5625rem;
+}
+
+.blog-details-text .tag-share .tags {
+	float: none;
+	margin-bottom: 1.25rem;
+}
+
+.blog-details-text .tag-share .social-share {
+	float: none;
+}
+
+.about-text .section-title h2 {
+	font-size: 1.875rem;
+	line-height: 2.5rem;
+}
+
+.hp-room-items {
+	margin: 0 -0.3125rem;
+}
+
+.hp-room-item {
+	margin-bottom: 0.625rem;
+}
+
+.hero-section {
+	height: 36.75rem;
+}
+
+.hero-text h1 {
+	font-size: 3rem;
+}
+
+.services-section {
+	padding-bottom: 2.75rem;
+}
+
+.py-7 {
+	padding: 2.375rem 0;
+}
+
+.service-item h4 {
+	font-size: 1.275rem;
+	line-height: 1.3;
+}
+}
+
+@media only screen and (max-width: 575px) {
+	.about-pic .row .col-sm-6:nth-child(2) {
 		display: none;
 	}
 
-	.room-details-item .rd-text .rd-title {
-		margin-bottom: 1.5625rem;
+	.about-text {
+		padding: 0;
 	}
 
-	.room-details-item .rd-text .rd-title h3 {
-		float: none;
-		margin-bottom: 1.875rem;
+	.after_banner_img_outer {
+		height: 20rem;
 	}
 
-	.room-details-item .rd-text .rd-title .rdt-right {
-		float: none;
-		text-align: left;
+	.section-title h2 {
+		font-size: 2rem;
 	}
 
-	.footer-section .copyright-option ul li {
-		margin-right: 1.5625rem;
+	.spad {
+		padding-top: 1.25rem;
 	}
 
-	.blog-details-text .tag-share .tags {
-		float: none;
-		margin-bottom: 1.25rem;
+	.accordion-button, .accordion-button:not(.collapsed) {
+		font-size: 1.4rem;
+		line-height: 1.3;
 	}
-
-	.blog-details-text .tag-share .social-share {
-		float: none;
-	}
-
-	.about-text .section-title h2 {
-		font-size: 1.875rem;
-		line-height: 2.5rem;
-	}
-
-	.hp-room-items {
-		margin: 0 -0.3125rem;
-	}
-
-	.hp-room-item {
-		margin-bottom: 0.625rem;
+	.accordion-body p {
+		font-size: 1.2rem;
 	}
 }
 
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 480px) {
+	.hero-text h1 {
+		font-size: 2.75rem;
+	}
+
+	.butn {
+		font-size: 1rem;
+		padding: 0.9375rem 1.25rem;
+	}
+
+	.hero-text p {
+		font-size: 1rem;
+	}
+	.accordion-body p {
+		font-size: 1.1rem;
+	}
+}
+
+@media only screen and (max-width: 480px) {
 	.footer-section .copyright-option ul li {
 		margin-bottom: 0.3125rem;
 	}
