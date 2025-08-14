@@ -1659,7 +1659,9 @@ span.theme{
 	padding-top: 0;
 	padding-bottom: 80px;
 }
-
+.vegas_cards_sec .room-item .ri-text h4 {
+    text-align: left;
+}
 .room-item {
     border-radius: 1.875rem;
     overflow: hidden;
@@ -1686,6 +1688,10 @@ span.theme{
 .hotel_price strong ,.hotel_highlights strong ,.hotel_features_heading strong {
     color: #dfa974;
 }
+h5.hotel_price strong{
+	color: #4c4c4c;
+}
+
 .room-item .ri-text h3 {
 	color: #dfa974;
 	font-weight: 700;
