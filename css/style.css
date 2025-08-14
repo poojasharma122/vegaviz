@@ -1565,10 +1565,12 @@ fieldset {
 }
 
 .footer-section .ft-contact .fa-social a:hover {
-	background: #dfa974;
 	border-color: #dfa974;
+	transform:translateY(-3px)
 }
-
+.footer-section .ft-contact .fa-social a:hover svg{
+	fill: #dfa974;
+}
 .footer-section .footer-text .ft-contact {
 	margin-bottom: 1.875rem;
 }
