@@ -3210,15 +3210,10 @@ span.hightlights {
 		padding: 0;
 	}
 	.form-image {
-		background-size: contain;
 		height: 20rem;
-		margin-bottom: 3.25rem;
 	}
 	.testimonial-slider.owl-carousel .owl-nav {
 		display: none;
-	}
-	.form-container {
-		padding: 0;
 	}
 	.ft-newslatter {
 		margin: 1.5rem 0;
